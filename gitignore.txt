@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.npm
+.node_repl_history
+.yarn-integrity
+
+# IDE/Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Sensitive data
+secrets/
+credentials.json
+*_key.json
+*_secret*
+
+# Data files
+data/raw/
+data/processed/
+data/scraped/
+*.csv
+*.xlsx
+*.json
+# Allow sample data and schemas
+!data/sample/*.csv
+!data/sample/*.json
+!data/schema/*.json
+
+# Documentation builds
+docs/_build/
+docs/api/
+
+# Docker
+.docker/
+docker-volumes/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model checkpoints
+models/checkpoints/
+*.pt
+*.pth
+*.h5
+*.pb
+*.model
+
+# Cache
+.cache/
